@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import java.io.IOException;
-public class EjercicioUno {
+public class EjercicioUnoIF {
     public static void main(String[] args) {
         /*int primerNumero = 30;
         int segundoNumero = 40;
