@@ -1,9 +1,20 @@
 
+import java.util.Scanner;
+import java.io.IOException;
 public class EjercicioUno {
     public static void main(String[] args) {
-        int A = 30;
-        int B = 40;
-        int C = 90;
+        /*int primerNumero = 30;
+        int segundoNumero = 40;
+        int terminalNumero= 90; Variables quemadas */
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el primer número:");
+        int A = scanner.nextInt();
+        System.out.println("Ingrese el segundo número:");
+        int B = scanner.nextInt();
+        System.out.println("Ingrese el tercer número:");
+        int C = scanner.nextInt();
 
 
         if (A != B && A != C && C != B) {
